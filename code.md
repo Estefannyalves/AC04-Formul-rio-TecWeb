@@ -9,62 +9,71 @@
 		<article>
 			<section>
 				<form>
-					<label for = "nome"> Nome Completo: </label><br/>
-					<input type ="text" name = "nome" id = "nome">
+					<label for = "nome" > Nome Completo: </label><br/>
+					<input type ="text" name = "nome" id = "nome" maxlength = "20">
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for= "nome"> Endereço:</label><br/>
-					<input type = "text" name = "endereco" id= "endereco">
+					<input type = "text" name = "endereco" id= "endereco" maxlength = "30">
 				</form>
-			</section>	
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> Cidade:</label><br/>
 					<input type = "text" name = "cidade" id="cidade">
 				</form>
-			</section>	
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> UF:</label><br/>
-					<input type = "text" name = "uf" id="uf">
+					<input type = "text" name = "uf" id="uf" maxlength="2">
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> RG:</label><br/>
-					<input type = "text" name = "rg" id="rg">
+					<input type = "text" name = "rg" id="rg" maxlength= "8">
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> CPF:</label><br/>
-					<input type = "text" name = "cpf" id="cpf">
+					<input type = "text" name = "cpf" id="cpf" maxlength = "11">
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> Email:</label><br/>
-					<input type = "text" name = "email" id="email">
+					<input type = "text" name = "email" id="email" maxlength= "20">
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> Rede Social:</label><br/>
-					<input type = "text" name = "rede" id="rede">
+						<select>
+							<option>FACEBOOK</option>
+							<option>TWITTER</option>
+							<option>WHATSAPP</option>
+							<option>OUTROS</option>
+						</select>
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
 					<label for = "nome"> Cursos:</label><br/>
-					<input type = "text" name = "cursos" id="cursos">
+						<select>
+							<option>SISTEMAS DE INFORMAÇÃO</option>
+							<option>REDES</option>
+							<option>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+						</select>
 				</form>
-			</section>
+			</section><br/>
 			<section>
 				<form>
-					<label for = "nome"> Fala aí pra gente qual motivo escolheu nossa faculdade:</label><br/>
-					<input type = "text" name = "inscricao" id="inscricao">
+					<label for = "nome"> Motivo que escolheu<br/> nossa faculdade:</label><br/>
+					<textarea id="inscricao" maxlength="100"></textarea>
 				</form>
 			</section>			
 		</article>
